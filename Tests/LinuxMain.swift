@@ -1,7 +1,7 @@
 import XCTest
 
-import swift_sap_sdk_ios_foundationTests
+import SAPFoundationTests
 
 var tests = [XCTestCaseEntry]()
-tests += swift_sap_sdk_ios_foundationTests.allTests()
+tests += SAPFoundationTests.allTests()
 XCTMain(tests)
